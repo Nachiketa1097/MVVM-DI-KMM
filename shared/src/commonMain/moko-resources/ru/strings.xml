@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="my_string">Моя строка локализации по умолчанию</string>
+    <string name="app_name">Мое Приложение</string>
+    <string name="welcome_message">Добро пожаловать в наше приложение!</string>
+</resources>
