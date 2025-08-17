@@ -33,7 +33,7 @@ fun SignUpScreen(navController: NavController) {
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
 
-        Text(text =  StringDesc.Resource(SharedRes.strings.my_string).toString(LocalContext.current), modifier = Modifier.fillMaxWidth())
+        Text(text =  StringDesc.Resource(SharedRes.strings.hi).toString(LocalContext.current), modifier = Modifier.fillMaxWidth())
         TextField(
             value = username,
             onValueChange = { username = it },

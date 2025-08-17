@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <resources>
-    <string name="my_string">My default localization string</string>
-    <string name="app_name">My App</string>
+    <string name="hi">Hi Guys</string>
     <string name="welcome_message">Welcome to our app!</string>
+    <string name="get_product">Get Product</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="wallet">Wallet</string>
 </resources>

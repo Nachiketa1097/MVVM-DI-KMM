@@ -5,11 +5,12 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavController
 import com.example.mvvm_di_kmm.viewmodel.CommonViewModel
 import org.koin.androidx.compose.get
 
 @Composable
-fun ProductScreen() {
+fun ProductScreen(navController: NavController) {
     val viewModel: CommonViewModel = get()
     val posts by viewModel.product.collectAsState()
 
